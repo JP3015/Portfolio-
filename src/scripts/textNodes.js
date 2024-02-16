@@ -47,7 +47,6 @@ export const textNodes = [
       },
     ],
   },
-  // Existing node
   {
     id: 4,
     title: "Chapter 3: The Meeting with the Mentor",
@@ -56,7 +55,7 @@ export const textNodes = [
     options: [
       {
         text: "Listen attentively to the AI, absorbing every detail.",
-        nextText: 41, // New branch starts here
+        nextText: 41, 
       },
       {
         text: "Polite nodding, but you are more excited about the journey.",
@@ -64,8 +63,6 @@ export const textNodes = [
       },
     ],
   },
-
-  // New nodes
   {
     id: 41,
     title: "Chapter 3.1: Deep Dive into Skills",
@@ -280,8 +277,8 @@ export const textNodes = [
       {
         text: "Reach out to the developer for a potential opportunity.",
         nextText: 14,
-        action: "link", // This tells the button what type of action to perform
-        linkUrl: "https://www.linkedin.com/in/ademiralijagic", // replace with actual LinkedIn URL
+        action: "link", 
+        linkUrl: "https://www.linkedin.com/in/jo%C3%A3o-pedro-otoni-de-araujo", 
       },
       {
         text: "Close the adventure, and continue your search.",
