@@ -1,140 +1,160 @@
+import image1 from './../assets/the-ordinary-world.jpg'
+import image2 from './../assets/the-portal.jpg'
+import image3 from './../assets/start-btn.jpg'
+import image4 from './../assets/AI.jpg'
+import image5 from './../assets/skills.jpg'
+import image6 from './../assets/html.jpg'
+import image7 from './../assets/js.jpg'
+import image8 from './../assets/react.jpg'
+import image9 from './../assets/node.jpg'
+import image10 from './../assets/delve-deeper.jpg'
+import image11 from './../assets/allies.jpg'
+import image12 from './../assets/cave.jpg'
+import image13 from './../assets/ordeal.jpg'
+import image14 from './../assets/reward.jpg'
+import image15 from './../assets/dream.jpg'
+import image16 from './../assets/resurrection.jpg'
+import image17 from './../assets/elixir.jpg'
+import image18 from './../assets/epilogue.jpg'
+
+
 export const textNodes = [
   {
     id: 1,
-    title: "Chapter 1: The Beginning",
-    text: "You are the Wanderer, and find yourself overwhelmed by a stack of identical CV's. Just when you consider giving up, you feel a strange otherworldly energy. You feel its pull towards the wilderness.",
-    img: "./assets/the-ordinary-world.jpg",
+    title: "Capítulo 1: O Começo",
+    text: "Você é o Viajante, e se vê sobrecarregado por uma pilha de CVs idênticos. Justo quando você considera desistir, você sente uma estranha energia de outro mundo. Você sente seu chamado em direção ao deserto.",
+    img: image1,
     options: [
       {
-        text: "Follow the enticing energy.",
+        text: "Siga a energia tentadora.",
         nextText: 2,
       },
       {
-        text: "Ignore and continue with the traditional CVs.",
+        text: "Ignore e continue com os CVs tradicionais.",
         nextText: 1,
       },
     ],
   },
   {
     id: 2,
-    title: "Chapter 2: The Call to Adventure",
-    text: "You've discovered a unique portfolio amidst the common CVs, a link that leads to a portal. It's intriguing and enthralling.",
-    img: "./assets/the-portal.jpg",
+    title: "Capítulo 2: O Chamado para a Aventura",
+    text: "Você descobriu um portfólio único no meio dos CVs comuns, um link que leva a um portal. É intrigante e fascinante.",
+    img: image2,
     options: [
       {
-        text: "Venture forth into the unusual and start the adventure.",
+        text: "Aventure-se no incomum e comece a aventura.",
         nextText: 3,
       },
       {
-        text: "Dismiss the adventure, adhering to the conventional recruitment methods.",
+        text: "Dispense a aventura, aderindo aos métodos de recrutamento convencionais.",
         nextText: 1,
       },
     ],
   },
   {
     id: 3,
-    title: "Chapter 3: The Refusal of the Call",
-    text: "As you hover over the 'start adventure' button, a twinge of apprehension courses through you. It's uncharted territory, deviating from the norm.",
-    img: "./assets/start-btn.jpg",
+    title: "Capítulo 3: A Recusa do Chamado",
+    text: "Enquanto você paira sobre o botão 'começar aventura', um arrepio de apreensão percorre você. É um território desconhecido, desviando do normal.",
+    img: image3,
     options: [
       {
-        text: "Embrace the fear and uncertainty. Press the button.",
+        text: "Abraçar o medo e a incerteza. Pressione o botão.",
         nextText: 4,
       },
       {
-        text: "Decide against it, preferring the familiarity of ordinary CVs.",
+        text: "Não pressionar o botão, preferindo a familiaridade dos CVs comuns.",
         nextText: 1,
       },
     ],
   },
   {
     id: 4,
-    title: "Chapter 3: The Meeting with the Mentor",
-    text: "You meet the guide, a sophisticated AI, that provides you an overview of the developer's skills and proficiency levels.",
-    img: "./assets/AI.jpg",
+    title: "Capítulo 3: O Encontro com o Mentor",
+    text: "Você encontra o guia, uma inteligência artificial sofisticada, que lhe fornece uma visão geral das habilidades e níveis de proficiência do desenvolvedor.",
+    img: image4,
     options: [
       {
-        text: "Listen attentively to the AI, absorbing every detail.",
+        text: "Ouça atentamente a IA, absorvendo cada detalhe.",
         nextText: 41, 
       },
       {
-        text: "Polite nodding, but you are more excited about the journey.",
+        text: "Acene educadamente, mas você está mais animado com a jornada.",
         nextText: 5,
       },
     ],
   },
   {
     id: 41,
-    title: "Chapter 3.1: Deep Dive into Skills",
-    text: "The AI takes you on a journey through the developer's skill set. From HTML/CSS basics, to Javascript's asynchronous behavior, React's virtual DOM, and Node.js's event-driven architecture.",
-    img: "./assets/skills.jpg",
+    title: "Capítulo 3.1: Mergulho Profundo nas Habilidades",
+    text: "A IA leva você em uma jornada pelas habilidades do desenvolvedor. Desde os conceitos básicos de HTML/CSS, até o comportamento assíncrono do Javascript, o DOM virtual do React e a arquitetura orientada a eventos do Node.js.",
+    img: image5,
     options: [
       {
-        text: "Ask the AI to explain in more detail.",
+        text: "Peça para a IA explicar com mais detalhes.",
         nextText: 42,
       },
       {
-        text: "Proceed with the story, skipping the technical deep dive.",
+        text: "Prossiga com a história, pulando o mergulho técnico.",
         nextText: 5,
       },
     ],
   },
   {
     id: 42,
-    title: "Chapter 3.2: Understanding the Basics",
-    text: "The AI starts with the basics, highlighting the developer's understanding of HTML and CSS. You see artifacts of responsive design, flexbox layout, semantic HTML, and CSS Grid.",
-    img: "./assets/html.jpg",
+    title: "Capítulo 3.2: Compreendendo os Conceitos Básicos",
+    text: "A IA começa com o básico, destacando o entendimento do desenvolvedor sobre HTML e CSS. Você vê artefatos de design responsivo, layout flexbox, HTML semântico e CSS Grid.",
+    img: image6,
     options: [
       {
-        text: "Appreciate the solid grounding, and ask for more about Javascript.",
+        text: "Aprecie o conhecimento sólido e peça mais sobre Javascript.",
         nextText: 43,
       },
       {
-        text: "Continue with the journey, bypassing the technical details.",
+        text: "Continue com a jornada, evitando os detalhes técnicos.",
         nextText: 5,
       },
     ],
   },
   {
     id: 43,
-    title: "Chapter 3.3: Delving into Javascript",
-    text: "You're taken into the heart of the developer's proficiency in Javascript. Demonstrations of ES6 syntax, Promises, async/await, and functional programming concepts illustrate the developer's fluency.",
-    img: "./assets/js.jpg",
+    title: "Capítulo 3.3: Adentrando no Javascript",
+    text: "Você é levado ao âmago da proficiência do desenvolvedor em Javascript. Demonstrações da sintaxe ES6, Promises, async/await e conceitos de programação funcional ilustram a fluência do desenvolvedor.",
+    img: image7,
     options: [
       {
-        text: "Admire the mastery, and request a look into the developer's React skills.",
+        text: "Admire a maestria e peça para ver as habilidades do desenvolvedor em React.",
         nextText: 44,
       },
       {
-        text: "Move along with the journey, eager for the adventure to continue.",
+        text: "Prossiga com a jornada, ansioso para a aventura continuar.",
         nextText: 5,
       },
     ],
   },
   {
     id: 44,
-    title: "Chapter 3.4: Revealing React Prowess",
-    text: "The AI showcases the developer's expertise with React. You see complex components, state management with hooks, and high-performance rendering with virtual DOM.",
-    img: "./assets/react.jpg",
+    title: "Capítulo 3.4: Revelando a Proficiência em React",
+    text: "A IA destaca a expertise do desenvolvedor com React. Você vê componentes complexos, gerenciamento de estado com hooks e renderização de alto desempenho com DOM virtual.",
+    img: image8,
     options: [
       {
-        text: "Respect the advanced skills, and ask about backend prowess with Node.js.",
+        text: "Pergunte sobre a competência backend com Node.js.",
         nextText: 45,
       },
       {
-        text: "Move forward with the journey, having seen the depth of the developer's skills.",
+        text: "Avance com a jornada, tendo visto a profundidade das habilidades do desenvolvedor.",
         nextText: 4,
       },
     ],
   },
   {
     id: 45,
-    title: "Chapter 3.5: Unveiling Node.js",
-    text: "Lastly, the AI reveals the developer's backend expertise. You see robust APIs built with Express.js, secure authentication practices, and real-time applications with WebSockets.",
-    img: "./assets/node.jpg",
+    title: "Capítulo 3.5: Revelando o Node.js",
+    text: "Por último, a IA revela a experiência backend do desenvolvedor. Você vê APIs robustas construídas com Express.js, práticas de autenticação segura e aplicações em tempo real com WebSockets.",
+    img: image9,
     options: [
       {
-        text: "Recognize the comprehensive skill set, and continue with the journey.",
+        text: "Reconheça o conjunto abrangente de habilidades e continue com a jornada.",
         nextText: 5,
       },
     ],
@@ -142,158 +162,160 @@ export const textNodes = [
 
   {
     id: 5,
-    title: "Chapter 5: Crossing the Threshold",
-    text: "You delve deeper into the adventure, navigating through levels that intricately unfold the developer's proficiency in HTML, CSS, and JavaScript. The challenges mirror the depth of the developer's skills.",
-    img: "./assets/delve-deeper.jpg",
+    title: "Capítulo 5: Cruzando o Limiar",
+    text: "Você mergulha mais fundo na aventura, navegando por níveis que desdobram intricadamente a proficiência do desenvolvedor em HTML, CSS e JavaScript. Os desafios refletem a profundidade das habilidades do desenvolvedor.",
+    img: image10,
     options: [
       {
-        text: "Appreciate the elegance of the code solutions.",
+        text: "Aprecie a elegância das soluções de código.",
         nextText: 6,
       },
       {
-        text: "Skim through the challenges, not considering the deeper implications.",
+        text: "Passe pelos desafios superficialmente, sem considerar as implicações mais profundas.",
         nextText: 6,
       },
     ],
   },
   {
-    id: 6,
-    title: "Chapter 6: Tests, Allies, Enemies",
-    text: "You face trials and tribulations, presented as intricate coding challenges. Each solution unravels a new facet of the developer's experience, portraying their journey through various projects and roles.",
-    img: "./assets/allies.jpg",
+    id: 6
+
+,
+    title: "Capítulo 6: Testes, Aliados, Inimigos",
+    text: "Você enfrenta provações e tribulações, apresentadas como desafios de codificação intricados. Cada solução desvenda uma nova faceta da experiência do desenvolvedor, retratando sua jornada por vários projetos e funções.",
+    img: image11,
     options: [
       {
-        text: "Examine the solutions, gaining insight into the developer's problem-solving abilities.",
+        text: "Examine as soluções, ganhando insights sobre as habilidades de resolução de problemas do desenvolvedor.",
         nextText: 7,
       },
       {
-        text: "Rush through the challenges, eager to reach the end of the adventure.",
+        text: "Corra pelos desafios, ansioso para alcançar o fim da aventura.",
         nextText: 7,
       },
     ],
   },
   {
     id: 7,
-    title: "Chapter 7: Approach to The Inmost Cave",
-    text: "You near the adventure's climax, a challenge that hints at the developer's knowledge of cutting-edge technologies like React, Node.js, or Angular.",
-    img: "./assets/cave.jpg",
+    title: "Capítulo 7: Abordagem à Caverna Mais Profunda",
+    text: "Você se aproxima do clímax da aventura, um desafio que sugere o conhecimento do desenvolvedor sobre tecnologias de ponta como React, Node.js ou Angular.",
+    img: image12,
     options: [
       {
-        text: "Take time to comprehend the code, analyzing the developer's proficiency with modern frameworks.",
+        text: "Dedique tempo para compreender o código, analisando a proficiência do desenvolvedor com frameworks modernos.",
         nextText: 8,
       },
       {
-        text: "Proceed without stopping to appreciate the details.",
+        text: "Prossiga sem parar para apreciar os detalhes.",
         nextText: 8,
       },
     ],
   },
   {
     id: 8,
-    title: "Chapter 8: The Ordeal",
-    text: "At the crux of the adventure, you encounter a complex challenge that requires a nuanced understanding of full-stack development. The solution to this challenge is a testament to the developer's competency.",
-    img: "./assets/ordeal.jpg",
+    title: "Capítulo 8: O Julgamento",
+    text: "No cerne da aventura, você se depara com um desafio complexo que requer um entendimento nuances do desenvolvimento full-stack. A solução para esse desafio é um testemunho da competência do desenvolvedor.",
+    img: image13,
     options: [
       {
-        text: "Examine the code in-depth, marveling at the developer's expertise.",
+        text: "Examine o código detalhadamente, maravilhando-se com a expertise do desenvolvedor.",
         nextText: 9,
       },
       {
-        text: "Move past the challenge, without understanding its significance.",
+        text: "Avance além do desafio, sem entender sua significância.",
         nextText: 9,
       },
     ],
   },
   {
     id: 9,
-    title: "Chapter 9: The Reward",
-    text: "Upon solving the ordeal, you are rewarded with insights into the developer's professional achievements, contributions, and accolades. It's a testament to their journey.",
-    img: "./assets/reward.jpg",
+    title: "Capítulo 9: A Recompensa",
+    text: "Ao resolver o desafio, você é recompensado com insights sobre as conquistas profissionais, contribuições e reconhecimentos do desenvolvedor. É um testemunho de sua jornada.",
+    img: image14,
     options: [
       {
-        text: "Reflect on the developer's achievements, valuing their journey.",
+        text: "Reflexão sobre as conquistas do desenvolvedor, valorizando sua jornada.",
         nextText: 10,
       },
       {
-        text: "Continue to the end, not reflecting on the reward.",
+        text: "Continue até o fim, sem refletir sobre a recompensa.",
         nextText: 10,
       },
     ],
   },
   {
     id: 10,
-    title: "Chapter 10: The Road Back",
-    text: "As you near the end, you traverse back through the adventure, reminiscing about the challenges that showcase the developer's journey from a novice to an expert.",
-    img: "./assets/dream.jpg",
+    title: "Capítulo 10: O Caminho de Volta",
+    text: "À medida que você se aproxima do fim, você volta atrás na aventura, relembrando os desafios que mostram a jornada do desenvolvedor de um novato a um especialista.",
+    img: image15,
     options: [
       {
-        text: "Revisit the challenges, appreciating the developer's growth and evolution.",
+        text: "Revise os desafios, apreciando o crescimento e a evolução do desenvolvedor.",
         nextText: 11,
       },
       {
-        text: "Hurry to the adventure's conclusion, not reminiscing on the journey.",
+        text: "Corra para a conclusão da aventura, sem relembrar a jornada.",
         nextText: 11,
       },
     ],
   },
   {
     id: 11,
-    title: "Chapter 11: The Resurrection",
-    text: "At the adventure's end, you face a final challenge that encapsulates all the developer's skills, signifying their readiness for any professional challenges that lie ahead.",
-    img: "./assets/resurrection.jpg",
+    title: "Capítulo 11: A Ressurreição",
+    text: "No final da aventura, você enfrenta um desafio final que encapsula todas as habilidades do desenvolvedor, significando sua prontidão para quaisquer desafios profissionais que estejam por vir.",
+    img: image16,
     options: [
       {
-        text: "Reflect on the final challenge, recognizing the developer's readiness.",
+        text: "Reflexão sobre o desafio final, reconhecendo a prontidão do desenvolvedor.",
         nextText: 12,
       },
       {
-        text: "Proceed to the end, without contemplating the significance.",
+        text: "Prossiga até o fim, sem contemplar o significado.",
         nextText: 12,
       },
     ],
   },
   {
     id: 12,
-    title: "Chapter 12: Return with the Elixir",
-    text: "As you exit the adventure, you carry with you a thorough understanding of the developer's skills, experiences, and their potential for growth. The conventional CV is but a pale comparison.",
-    img: "./assets/elixir.jpg",
+    title: "Capítulo 12: Retorno com o Elixir",
+    text: "Ao sair da aventura, você carrega consigo um entendimento profundo das habilidades do desenvolvedor, experiências e seu potencial de crescimento. O CV convencional é apenas uma pálida comparação.",
+    img: image17,
     options: [
       {
-        text: "Acknowledge the value of this unique portfolio approach.",
+        text: "Reconheça o valor dessa abordagem de portfólio única.",
         nextText: 13,
       },
       {
-        text: "Close the adventure, not pondering on the gained insights.",
+        text: "Feche a aventura, sem refletir sobre os insights adquiridos.",
         nextText: 1,
       },
     ],
   },
   {
     id: 13,
-    title: "Epilogue",
-    text: "Your adventure concludes, leaving you with a deep understanding of the developer's skills. What will you do next?",
-    img: "./assets/epilogue.jpg",
+    title: "Epílogo",
+    text: "Sua aventura termina, deixando-o com um profundo entendimento das habilidades do desenvolvedor. O que você fará em seguida?",
+    img: image18,
     options: [
       {
-        text: "Reach out to the developer for a potential opportunity.",
+        text: "Entre em contato com o desenvolvedor em busca de uma oportunidade potencial.",
         nextText: 14,
         action: "link", 
-        linkUrl: "https://www.linkedin.com/in/jo%C3%A3o-pedro-otoni-de-araujo", 
+        linkUrl: "https://www.linkedin.com/in/jo%C3%A3o-pedro-otoni-de-araujo-17360b24a/", 
       },
       {
-        text: "Close the adventure, and continue your search.",
+        text: "Feche a aventura e continue sua busca.",
         nextText: 1,
       },
     ],
   },
   {
     id: 14,
-    title: "The New Beginning",
-    text: "You've decided to embark on a new journey with the developer. Congratulations! The end is a new beginning.",
-    img: "./assets/The New Beginning.jpg",
+    title: "O Novo Começo",
+    text: "Você decidiu embarcar em uma nova jornada com o desenvolvedor. Parabéns! O fim é um novo começo.",
+    img: image1,
     options: [
       {
-        text: "Celebrate the successful recruitment process.",
+        text: "Celebre o processo de recrutamento bem-sucedido.",
         nextText: 1,
       },
     ],

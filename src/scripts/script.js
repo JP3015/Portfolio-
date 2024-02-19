@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     storyElement.textContent = ""
 
     const backgroundElement = document.getElementById("background")
+    backgroundElement.src = textNode.img
     backgroundElement.style.backgroundSize = "cover"
     backgroundElement.style.backgroundPosition = "center"
 

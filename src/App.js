@@ -6,7 +6,7 @@ function App() {
     <body>
       <div id="container">
         <div id='title'></div>
-        <img id='background'/>
+        <img id="background" src=""/>
         <div id='story'></div>
         <div id='choices'></div>
       </div>
