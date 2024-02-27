@@ -64,4 +64,23 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     window.onload = () => showTextNode(1)
+
+    const bgMusic = document.getElementById("bgMusic")
+    const musicToggle = document.getElementById("musicToggle")
+
+    bgMusic.loop = true
+
+    let musicPlaying = false
+    musicToggle.innerText = "Tocar música"
+
+    musicToggle.addEventListener("click", () => {
+        if (musicPlaying) {
+            bgMusic.pause()
+            musicToggle.innerText = "Tocar música"
+        } else {
+            bgMusic.play()
+            musicToggle.innerText = "Pausar música"
+        }
+        musicPlaying = !musicPlaying
+    })
 })
